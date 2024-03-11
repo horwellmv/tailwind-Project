@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.resaltar{
+    @apply hover:text-color-segundario ease-in duration-200;
+}
+
+.boton{
+    @apply bg-color-segundario px-7 py-2 rounded-md capitalize font-bold opacity-85 hover:opacity-100 ease-in duration-300
+}
