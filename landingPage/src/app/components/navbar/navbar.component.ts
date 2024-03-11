@@ -15,13 +15,4 @@ export class NavbarComponent {
     icono?.classList.toggle("fa-xmark");
   }
 
-  menuNavegar(){
-    console.log("hola link")
-    const menu = document.querySelector("#menu");
-    const icono = document.querySelector(".fa-solid");
-
-    menu?.classList.toggle("hidden");
-    icono?.classList.toggle("fa-xmark");
-  }
-
 }
