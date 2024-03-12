@@ -8,5 +8,17 @@
 }
 
 .boton{
-    @apply bg-color-segundario px-7 py-2 rounded-md capitalize font-bold opacity-85 hover:opacity-100 ease-in duration-300
+    @apply bg-color-segundario px-7 py-2 rounded-md capitalize font-bold opacity-100 hover:opacity-75 ease-in duration-200
+}
+
+.titulo {
+    @apply text-3xl md:text-4xl font-bold mb-4 ;
+}
+
+.gota_izq{
+    @apply -left-40 sm:-left-5 top-0 -z-10 w-80 h-80 bg-color-gota absolute blur-2xl opacity-40 overflow-hidden rounded-full ;
+}
+
+.gota_der{
+    @apply -right-40 bottom-0 -z-10 w-80 h-80 bg-color-segundario absolute blur-2xl opacity-20 overflow-hidden rounded-full ;
 }
