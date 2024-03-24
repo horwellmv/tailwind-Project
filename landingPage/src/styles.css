@@ -8,7 +8,7 @@
 }
 
 .boton{
-    @apply bg-color-segundario px-7 py-2 rounded-md capitalize font-bold opacity-100 hover:opacity-75 ease-in duration-200
+    @apply bg-color-segundario px-7 py-2 rounded-md capitalize font-bold opacity-100 hover:opacity-75 ease-in duration-200 ;
 }
 
 .titulo {
