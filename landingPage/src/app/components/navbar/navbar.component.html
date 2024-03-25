@@ -1,7 +1,7 @@
 <header>
     <nav class="container flex justify-between items-center">
         <div class="py-5 text-color-segundario font-bold text-3xl">
-            <a href="#home" class="opacity-85 hover:opacity-100"><span class="text-color-white">My</span>Landing</a>
+            <a href="#home" class="opacity-85 hover:opacity-100"><span class="text-color-white">Ing</span>Formatica.rec</a>
         </div>
         <div>
             <ul class="hidden lg:flex items-center space-x-6">
@@ -17,12 +17,12 @@
         </div>
 
         <!-- Vista mobil del Menu-->
-        <div id="hamburguesa" (click)="inOutMenu()" class="lg:hidden cursor-pointer p-2 z-10">
+        <div id="hamburguesa" (click)="inOutMenu()" class="lg:hidden p-2 z-10">
             <i class="fa-solid fa-bars"></i>
         </div>
 
-        <div id="menu" class="hidden bg-color-primario-light h-[100vh] absolute inset-0">
-            <ul class="h-full grid place-items-center py-20">
+        <div id="menu" class="hidden bg-color-primario-light h-60 absolute inset-20">
+            <ul class="h-80 grid place-items-center py-4">
                 <li><a class="resaltar" id="menuLink" href="#"  (click)="inOutMenu()" >Home</a></li>
                 <li><a class="resaltar" id="menuLink" href="#"  (click)="inOutMenu()" >Servicios</a></li>
                 <li><a class="resaltar" id="menuLink" href="#"  (click)="inOutMenu()" >Testimonios</a></li>
