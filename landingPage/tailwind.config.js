@@ -13,6 +13,9 @@ module.exports = {
         "color-gris":"#333",
         "color-white":"#fff",
         "color-gota":"#A427DF",
+        "color-indigo":"#4338CA",
+        "color-lima":"#84CC16",
+        "color-rosa":"#BE123C",
       }
     },
     container:{
