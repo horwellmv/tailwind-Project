@@ -8,11 +8,11 @@ module.exports = {
       colors:{
         "color-primario":"#01051e",
         "color-primario-light":"#020726",
-        "color-primario-dark":"#010417e",
+        "color-primario-dark":"#010417",
         "color-segundario":"#ff7d3b",
         "color-gris":"#333",
         "color-white":"#fff",
-        "color-gota":"#a427df",
+        "color-gota":"#A427DF",
       }
     },
     container:{
